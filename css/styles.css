@@ -1,0 +1,94 @@
+.cis260specialgreen { 
+    color: #4fd0be;
+    font-weight: bold
+}
+
+
+#content p { 
+    color: blue; 
+}
+
+
+nav 
+{ display: flex;
+flex-direction: column}
+
+html {
+    box-sizing: border-box; 
+    margin: 0;
+    
+}
+
+
+div ul li { 
+
+color :  (86, 270, 190)}
+
+body {
+    background-color: #ccdaff ;
+     
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh
+    
+    
+}
+        
+header {
+    display: flex; 
+    align-items: center
+} 
+
+ 
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+
+a:hover {
+    color: #aaa;
+}
+
+
+
+
+
+<<<<<<< HEAD
+@media screen and (max-width: 40rem)
+{
+    header {flex-direction:column};
+    main {flex-direction:column};
+     
+    
+}
+    
+    
+=======
+@media screen and (max-width:40rem){
+    header {flex-direction: column;}
+}
+    
+
+
+
+    h2 { border: 2px solid ; border-radius: 10px; 
+        box-shadow: 5px 5px 5px #828282; 
+    } 
+
+    
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #555;
+    
+    
+
+    
+>>>>>>> e19d69ed5718dc7940f31bcb4ab803f17c357f6a
