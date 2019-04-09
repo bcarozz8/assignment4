@@ -20,6 +20,13 @@ html {
 }
 
 
+
+form p {
+    display: flex;
+    margin-bottom: 1em;
+        
+}
+
 div ul li { 
 
 color :  (86, 270, 190)}
@@ -71,7 +78,8 @@ a:hover {
     
 =======
 @media screen and (max-width:40rem){
-    header {flex-direction: column;}
+    header {flex-direction: column;
+    form p {flex-direction: column}}
 }
     
 

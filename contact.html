@@ -30,22 +30,69 @@
         
         
         <main> 
-                <form> 
+                <form action="thankyou.html"> 
                     <p> Please fill out this information: </p>
-                    <label for="firstname">First name: </label>
+                    
+                    <p>
+                    <label for="firstname">First name:   </label>
                     <input type="text" name="firstname" id="firstname">
-                    
-                    <label for="lastname">Last name: </label>
+                     </p>
+                  
+                    <p> 
+                    <label for="lastname">Last name:   </label>
                     <input type="text" name="lastname" id="lastname">
-                    
+                    </p>
+                  
+                    <p> 
                     <label for="email">Email: </label>
                     <input type="text" name="email" id="email">
+        
+                    </p> 
                     
+                    <p>
+                    <label for="how-you-heard"> How you heard about us?</label>
+                    <select name="how-you-heard" id="how-you-heard" multiple="true">
+                            <option value="email">Email</option>
+                            <option value="instagram">Instagram</option>
+                            <option value="friends">Friends</option>
+                            <option value="Google">Google</option>
+                        </select>
+                    </p> 
+                 
+                    <p> 
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments" rows="4" cols="40"></textarea> 
+                    </p>
+                    
+                    
+                    <div class="radio-button" style="color: blue">
+                        <label for="follow photosbybay on instagram"> Would you like to follow photosbybay on instagram?</label>
+                        <input type="radio" name= "follow photosbybay on instagram" value "Yes"checked>Yes
+                        <input type="radio" name= "follow photosbybay on instagram" value "No">No
+                    </div>
           
+                    
+                    
+                    <div class="checkboxes" style="color: blue"> 
+                    
+                        <label for"camera-used"> What type of camera do you use?</label>
+                        <input type="checkbox" name="devices-used" value "Nikon">Nikon
+                        <input type="checkbox" name="devices-used" value "Canon"> Canon
+                        <input type="checkbox" name="devices-used" value "Both"> Both 
+                        <input type="checkbox" name="devices-used" value " Other"> Other 
+                
+                    
+                    </div>
             
             
+                    <label></label>
+                    <input type="submit" value="Submit">
+                     <input type="reset" value="Reset">
             
             
+                    
+                    
+                  
             
             
             
